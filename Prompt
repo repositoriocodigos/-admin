@@ -1,0 +1,3 @@
+@echo off
+:: O comando abaixo tenta executar um prompt de comando como administrador silenciosamente
+powershell -command "Start-Process cmd -Verb runAs"
